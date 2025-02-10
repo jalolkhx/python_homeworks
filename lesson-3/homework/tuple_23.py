@@ -1,0 +1,5 @@
+tuple1 = (1,2,3,88,56,'apple')
+list1 = list(tuple1)
+list1.reverse()
+tuple2 = tuple(list1)
+print(f"reversed tuple: {tuple2}")
